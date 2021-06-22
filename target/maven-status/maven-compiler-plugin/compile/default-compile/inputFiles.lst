@@ -1,0 +1,16 @@
+/home/oem/IdeaProjects/telegrumer/src/main/java/telegram/states/UpdatingState.java
+/home/oem/IdeaProjects/telegrumer/src/main/java/managers/DelegateState.java
+/home/oem/IdeaProjects/telegrumer/src/main/java/telegram/states/MenuState.java
+/home/oem/IdeaProjects/telegrumer/src/main/java/RegisterFiles.java
+/home/oem/IdeaProjects/telegrumer/src/main/java/managers/DownloadManager.java
+/home/oem/IdeaProjects/telegrumer/src/main/java/telegram/entity/Entity.java
+/home/oem/IdeaProjects/telegrumer/src/main/java/telegram/states/FilmState.java
+/home/oem/IdeaProjects/telegrumer/src/main/java/telegram/MainBot.java
+/home/oem/IdeaProjects/telegrumer/src/main/java/Main.java
+/home/oem/IdeaProjects/telegrumer/src/main/java/telegram/config/DatabaseFactory.java
+/home/oem/IdeaProjects/telegrumer/src/main/java/telegram/config/PropertiesDB.java
+/home/oem/IdeaProjects/telegrumer/src/main/java/managers/DelegateCharacter.java
+/home/oem/IdeaProjects/telegrumer/src/main/java/telegram/entity/Files.java
+/home/oem/IdeaProjects/telegrumer/src/main/java/telegram/states/BookState.java
+/home/oem/IdeaProjects/telegrumer/src/main/java/telegram/users/User.java
+/home/oem/IdeaProjects/telegrumer/src/main/java/telegram/config/PropertiesBot.java

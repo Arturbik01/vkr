@@ -1,0 +1,16 @@
+telegram/entity/Entity.class
+telegram/users/User.class
+telegram/config/PropertiesBot.class
+telegram/states/UpdatingState.class
+telegram/config/DatabaseFactory.class
+Main.class
+telegram/states/FilmState.class
+managers/DownloadManager.class
+telegram/config/PropertiesDB.class
+RegisterFiles.class
+telegram/states/BookState.class
+telegram/MainBot.class
+managers/DelegateState.class
+managers/DelegateCharacter.class
+telegram/states/MenuState.class
+telegram/entity/Files.class

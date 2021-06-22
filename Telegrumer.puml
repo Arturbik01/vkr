@@ -1,0 +1,28 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+Main -> MainThread: Создание потока
+MainThread --> RegisterFiles: Регистрация файлов
+MainThread -> Bot: Инициализация бота
+Bot <-- PropertiesBot: Получение имени бота
+Bot <-- PropertiesBot: Получение  токена бота
+
+TELEGRAMSERVER -> Bot:  Отправка сообщения
+Bot --> DelegateState: Проверка по базе
+Bot <- DelegateState: Отправка состояния бота у пользователя
+Bot --> DelegateCharacter: Исполнение в зависимости от состояния бота
+
+DelegateCharacter -> BookState: Запуск сценария
+BookState -> BookState: Чтение сообщения
+BookState <<- Files: Получение книги из базы
+Files <- Entity: Создание запроса на сервер БД
+Entity --> DatabaseFactory: Подготовка запроса
+DatabaseFactory <<- PropertiesDB: Получение конфигурации из файла
+DatabaseFactory <<->> DB: Исполнение запроса
+BookState -> TELEGRAMSERVER: Отправка файла пользователю
+BookState -> TELEGRAMSERVER: Отправка сообщения пользователю
+BookState --> DelegateState: Смена состояния
+
+@enduml
